@@ -111,7 +111,7 @@ h2{
     
 }
 
-section>.container>figure>img{
+section>.container>img{
     margin: 0.5rem;
     width: 235px;
     height: auto;
@@ -119,6 +119,8 @@ section>.container>figure>img{
     align-items: center;
     justify-content: space-around;
 }
+
+
 
 footer {
     text-align: center;
