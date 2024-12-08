@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Whitewater Rafting website" content="Contact Page ">
+    <meta name="author" content="Ukpebitere Oghenerukevwe Precious">
+    <title>Whitewater Rafting | Contact us page</title>
+
+    <!-- heading font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+     
+    <!-- text-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/contact.css">   
+    
+</head>
+<body>
+    <header>
+        <!-- <img src="images/rafinglogo.png" alt="logo"> -->
+        <h1>Whitewater Rafting</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 123 River St, Adventure City, USA</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> info@whitewaterrefting.com</p>
+        
+            <!-- Embedded Google Map -->
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1607.1638884852039!2d-117.99331503318885!3d33.815134501859475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s123%20River%20St%2C%20Adventure%20City%2C%20USA!5e0!3m2!1sen!2sng!4v1733615974940!5m2!1sen!2sng"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/tourguide.jpg" alt="Profile of Employee 1">
+                    <figcaption>Vivian Dave - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/reservationspecialist.webp" alt="Profile of Employee 2">
+                    <figcaption>Joy Daniel - Reservation Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/adventureplanner.png" alt="Profile of Employee 3">
+                    <figcaption>Sam Taylor - Adventure Planner</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general-inquiry" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation-question">
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website-suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <label>
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+        
+                <button type="submit">Submit Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>@copy 2024 Whitewater Rafting Precious</p> 
+        <a href="images/wireframe.jpg">Contact Us Wireframe</a> 
+    </footer>
+
+</body>
+</html>
